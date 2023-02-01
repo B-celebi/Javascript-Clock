@@ -48,7 +48,7 @@ if (Number.isNaN(parseInt(input))) {
     }
 
     //Saatin Sürekli Güncellenmesi İçin setInterval Metodu Kullanımı.
-    setInterval(saatGuncel(), 1000);
+    setInterval(saatGuncel, 1000);
 
 }
 else {
